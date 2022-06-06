@@ -9,21 +9,12 @@
         "maxLength": 20
       }
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
+    "category": {
       "string": [
-        "one",
-        "two",
-        "three"
+        "men",
+        "women",
+        "kids"
       ]
-    },
-    "isDraft": {
-      "boolean": {}
     },
     "createdAt": {
       "dateTime": {
