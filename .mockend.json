@@ -1,8 +1,8 @@
 {
-  "Product": {
+  "Post": {
     "img": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-
+    "name": { "regexp": "[A-Z][a-z]{5,10}" },
   }
 }
