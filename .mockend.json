@@ -24,16 +24,5 @@
     "userComments": {
        "hasMany": "Comment"
      }
-  },
-  "Comment": {
-   "authorPost": {
-     "belongsTo": "Post"
-   },
-   "name": {
-     "loremWords": {
-       "minLength": 5,
-       "maxLength": 20
-     }
-   }
- }
+  }
 }
