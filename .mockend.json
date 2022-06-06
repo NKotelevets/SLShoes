@@ -20,6 +20,6 @@
     },
     "price": { "int": { "min": 10, "max": 500 } },
     "rating": { "int": { "min": 0, "max": 5 } },
-    "discountPercent": { "int": { "min": 1, "max": 70 } },
+    "discountPercent": { "int": { "min": 1, "max": 70 } }
   }
 }
