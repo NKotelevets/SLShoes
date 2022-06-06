@@ -10,11 +10,7 @@
       }
     },
     "category": {
-      "string": [
-        "men",
-        "women",
-        "kids"
-      ]
+      "string": ["men", "women", "kids"]
     },
     "createdAt": {
       "dateTime": {
@@ -22,6 +18,9 @@
         "max": "2020-12-31T23:59:59Z"
       }
     },
-     "likes": { "int": { "min": 0, "max": 1000000 } }
+    "price": { "int": { "min": 10, "max": 500 } },
+    "rating": { "int": { "min": 0, "max": 5 } },
+    "discountPercent": { "int": { "min": 1, "max": 70 } },
+    "sizes": ["36", "38", "40", "42"],
   }
 }
